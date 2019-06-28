@@ -1,0 +1,9 @@
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.11em;
+}
+
+button {
+  margin-left: auto;
+}

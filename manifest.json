@@ -1,0 +1,18 @@
+{
+  "name": "Bookmark Search",
+  "description" : "Search in your bookmarks with omnibar",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "bookmarks",
+    "storage"
+  ],
+  "omnibox": { "keyword" : "!bm" },
+  "background": {
+    "scripts": ["lib.js", "config.js", "background.js"]
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "browser_style": true
+  }
+}
